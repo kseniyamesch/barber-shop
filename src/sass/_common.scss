@@ -1,0 +1,64 @@
+.btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  background-color: transparent;
+
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid $accent-color;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: #ffffff;
+  }
+}
+
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.pre-title-light {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.pre-title-dark {
+  color: #303030;
+}
+.after-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+
+.after-title-light {
+    color: $third-text-color;
+}
+
+.after-title-dark {
+  color: $primary-text-color;
+}
+
+.section-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+.section-title-dark {
+    color: $secondary-title-color;
+}
+
+.section-title-light {
+  color: $primary-title-color;
+}

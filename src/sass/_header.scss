@@ -1,0 +1,38 @@
+.header {
+  background-color: #555555;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: $header-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: $header-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.header-btn {
+  color: $header-color;
+  padding: 12px 20px;
+}
+
+
