@@ -1,5 +1,35 @@
 .price {
+    padding-top: 130px;
+    padding-bottom: 130px;
     background-color: #555555;
+}
+
+.price-pre-title {
+    margin-bottom: 20px;
+}
+
+.price-title {
+margin-bottom: 44px;
+}
+
+.price-list {
+    padding: 30px 20px;
+    width: 570px;
+    
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
 }
 
 .price-item-text {
@@ -9,7 +39,16 @@ letter-spacing: 0.02em;
 color: $third-text-color;
 }
 
+.price-list-wrapper {
+    display: flex;
+    margin-bottom: 44px;
+}
+
 .price-btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
     color: #FFFFFF;
     padding: 12px 20px;
 }

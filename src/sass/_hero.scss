@@ -1,3 +1,11 @@
+.hero-container {
+  display: flex;
+}
+
+.hero-list {
+  width: 100px;
+}
+
 .hero-link {
   font-weight: 600;
   font-size: 11px;
@@ -14,14 +22,29 @@
 }
 
 .hero-right {
+  flex-grow: 1;
+  padding-top: 272px;
+  padding-bottom: 208px;
+  padding-left: 100px;
+  
   background-color: #555;
 }
 
+.hero-pre-title {
+  padding-bottom: 20px;
+}
+
 .hero-title {
+  padding-bottom: 20px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
   color: $primary-title-color;
+}
+
+.hero-after-title {
+  width: 358px;
 }

@@ -1,4 +1,38 @@
+.masters {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  background-color: #F7F7F7;
+}
+
+.masters-pre-title {
+  margin-bottom: 20px;
+}
+
+.masters-title {
+  margin-bottom: 44px;
+}
+
+.masters-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.masters-item {
+  margin-left: 30px;
+  margin-bottom: 30px;
+
+  flex-basis: calc((100% - 3 * 30px) / 3);
+}
+
+.masters-item-description {
+  margin-top: 30px;
+}
+
 .masters-item-name {
+  
   font-size: 18px;
   line-height: 1.39;
 
@@ -9,11 +43,13 @@
 }
 
 .masters-item-text {
-    font-size: 14px;
-line-height: 1.36;
+  margin-top: 8px;
 
-text-align: center;
-letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.36;
 
-color: $accent-color;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: $accent-color;
 }
