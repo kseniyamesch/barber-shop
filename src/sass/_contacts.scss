@@ -1,7 +1,5 @@
 .contacts {
-    background-color: #555;
-    padding-top: 130px;
-    padding-bottom: 120px;
+    background-color: #191C26;
 }
 
 .contacts-container {
@@ -10,10 +8,19 @@
 
 .booking {
 width: 50%;
+padding-top: 130px;
+padding-bottom: 120px;
 }
 
 .contacts-right {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    flex-grow: 1;
     padding-left: 100px;
+    background-image: url(../images/contacts-bgd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .contacts-right h2 {

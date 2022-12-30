@@ -19,18 +19,36 @@
 }
 
 .pre-title {
+  display: flex;
+  align-items: center;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   text-transform: uppercase;
+
+  &::before {
+    margin-right: 20px;
+    content: '';
+    width: 60px;
+    height: 1px;
+    
+  }
 }
 
 .pre-title-light {
   color: rgba(157, 164, 189, 0.6);
-}
+
+  &::before {
+    background-color: rgba(157, 164, 189, 0.6);
+}}
 
 .pre-title-dark {
-  color: #303030;
+  color: $secondary-title-color;
+
+  &::before {
+    background-color: $secondary-title-color;
+  }
 }
 .after-title {
   font-weight: 400;
