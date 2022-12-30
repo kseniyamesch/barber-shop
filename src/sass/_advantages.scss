@@ -19,7 +19,7 @@
   height: 133px;
   padding: 20px 24px;
 
-  &:nth-child(2n+1) {
+  &:nth-child(2n + 1) {
     margin-right: 30px;
   }
 
@@ -27,12 +27,13 @@
     margin-top: 30px;
   }
 
-  background-color: #F7F7F7;
-
+  background-color: #f7f7f7;
 }
 
 .advantages-count {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: start;
   margin-bottom: 6px;
 
   font-weight: 700;
@@ -42,6 +43,14 @@
   letter-spacing: 0.05em;
 
   color: $secondary-text-color;
+
+  &::after {
+    content: '+';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.38;
+    color: $accent-color;
+  }
 }
 
 .advantages-item-text {
@@ -54,8 +63,8 @@
 }
 
 .advantages-right {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .advantages-pre-title {
