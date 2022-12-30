@@ -34,16 +34,26 @@ padding-bottom: 120px;
 }
 
 .contacts-address {
-    width: 270px;
+    // width: 270px;
     margin-bottom: 70px;
     font-style: inherit;
 }
 
 .contacts-link {
+    display: flex;
+    align-items: center;
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: $third-text-color;
+}
+
+.contacts-icon {
+    margin-right: 16px;
+}
+
+.address-link {
+font-weight: 700;
 }
 
 .mail {
