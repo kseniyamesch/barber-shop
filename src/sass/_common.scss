@@ -11,6 +11,9 @@
   outline: none;
   border: 1px solid $accent-color;
 
+  transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     background-color: $accent-color;
@@ -32,7 +35,6 @@
     content: '';
     width: 60px;
     height: 1px;
-    
   }
 }
 
@@ -41,7 +43,8 @@
 
   &::before {
     background-color: rgba(157, 164, 189, 0.6);
-}}
+  }
+}
 
 .pre-title-dark {
   color: $secondary-title-color;
@@ -58,7 +61,7 @@
 }
 
 .after-title-light {
-    color: $third-text-color;
+  color: $third-text-color;
 }
 
 .after-title-dark {
@@ -74,7 +77,7 @@
 }
 
 .section-title-dark {
-    color: $secondary-title-color;
+  color: $secondary-title-color;
 }
 
 .section-title-light {
@@ -82,8 +85,8 @@
 }
 
 .container {
-width: 1200px;
-padding-right: 15px;
-padding-left: 15px;
-margin: 0 auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
