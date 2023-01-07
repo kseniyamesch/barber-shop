@@ -10,16 +10,23 @@ align-items: flex-end;
 
 .hero-list {
   display: flex;
+  padding-top: 28px;
   align-items: center;
-
   transform: rotate(-90deg);
+  transform-origin: top left;
 
   &::before {
-    margin-right: 20px;
+    margin-right: 40px;
     content: '';
     width: 60px;
     height: 1px;
     background-color: #303030;
+  }
+}
+
+.hero-item {
+  &:not(:last-child) {
+    margin-right: 40px;
   }
 }
 
@@ -51,7 +58,6 @@ align-items: flex-end;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 1070px;
   background-color: #555;
 }
 

@@ -21,6 +21,7 @@
 }
 
 .masters-item {
+  
   margin-left: 30px;
   margin-bottom: 30px;
 
@@ -29,6 +30,8 @@
 
 .masters-item-description {
   margin-top: 30px;
+
+  
 }
 
 .masters-item-name {
@@ -76,10 +79,9 @@
   background-color: #fff;
   border-radius: 50%;
   outline: none;
-  // transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
   &:hover .social-icon, &:focus .social-icon {
-    // transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: $accent-color;
     
   }
@@ -90,5 +92,4 @@
   height: 20px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #303030;
-  
 }
