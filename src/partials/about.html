@@ -1,36 +1,97 @@
 <section class="about" id="about">
   <div class="container about-container">
-    <ul class="about-list">
-      <li class="about-item">
-        <img
-          src="./images/img1.jpg"
-          alt="Barber working with beard"
-          width="270"
-          height="445"
-        />
-      </li>
-      <li class="about-item">
-        <img
-          src="./images/img2.jpg"
-          alt="Barber working with hair"
-          width="270"
-          height="445"
-        />
-      </li>
-    </ul>
+    <div class="about-left">
+      <ul class="about-list">
+        <li class="about-item">
+          <picture>
+            <source
+              media="(min-width:1200px )"
+              srcset="
+                ./images/About/about-desk1.webp    1x,
+                ./images/About/about-desk1@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/About/about-desk1.jpg    1x,
+                ./images/About/about-desk1@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/About/about-tab1.webp    1x,
+                ./images/About/about-tab1@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/About/about-tab1.jpg    1x,
+                ./images/About/about-tab1@2x.jpg 2x
+              "
+            />
+            <img src="#" alt="Master works with beard" class="about-image" />
+          </picture>
+        </li>
+        <li class="about-item">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/About/about-desk2.jpg    1x,
+                ./images/About/about-desk2@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/About/about-desk2.webp    1x,
+                ./images/About/about-desk2@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/About/about-tab2.webp    1x,
+                ./images/About/about-tab2@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/About/about-tab2.jpg    1x,
+                ./images/About/about-tab2@2x.jpg 2x
+              "
+            />
+            <img src="#" alt="Master works with hair" class="about-image" />
+          </picture>
+        </li>
+      </ul>
+    </div>
     <div class="about-right">
       <p class="pre-title pre-title-dark about-pre-title">About</p>
-      <h2 class="section-title section-title-dark about-title">Best Barbershop in your city</h2>
-      <p class="after-title after-title-dark about-after-title">
+      <h2 class="section-title section-title-dark about-title">
+        Best Barbershop in your city
+      </h2>
+      <p class="after-title after-title-dark about-after-title after-title-desk">
         If you want to add more confidence to your image, you should definitely
         visit us.
+      </p>
+      <p class="after-title after-title-dark about-after-title after-title-mob">
+        If you want to add more confidence to your image, you should visit us
       </p>
       <p class="about-text">
         We are a team that never stops at what has been achieved and are thirsty
         for changes. And when you fall into the hands of our master, you will
         never be the same again. We are a team that is always "on the same wave"
-        with clients. Therefore, we are always ready to improve everyone who comes
-        to us!
+        with clients. Therefore, we are always ready to improve everyone who
+        comes to us!
       </p>
       <button type="button" class="btn about-btn">ONLINE-BOOKING</button>
     </div>

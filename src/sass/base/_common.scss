@@ -1,4 +1,6 @@
 .btn {
+  padding: 12px 20px;
+
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -53,27 +55,30 @@
     background-color: $secondary-title-color;
   }
 }
+
 .after-title {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
+  font-size: 16px;
+  line-height: 1.73;
   letter-spacing: 0.02em;
-}
 
-.after-title-light {
-  color: $third-text-color;
-}
-
-.after-title-dark {
-  color: $primary-text-color;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.67;
+  }
 }
 
 .section-title {
   font-family: 'Raleway';
   font-weight: 700;
-  font-size: 42px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 1.18;
   letter-spacing: 0.05em;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 42px;
+    line-height: 1.17;
+  }
 }
 
 .section-title-dark {
@@ -84,9 +89,10 @@
   color: $primary-title-color;
 }
 
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
+.after-title-light {
+  color: $third-text-color;
+}
+
+.after-title-dark {
+  color: $primary-text-color;
 }
