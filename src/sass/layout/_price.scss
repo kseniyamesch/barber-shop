@@ -35,6 +35,12 @@
     max-width: 1600px;
     padding-top: 130px;
     padding-bottom: 130px;
+    background-image: url('../images/prices/price-desk.png');
+    @media screen and (min-device-pixel-ratio: 2x),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../images/prices/price-desk@2x.png');
+    }
   }
 }
 

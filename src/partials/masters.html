@@ -6,12 +6,54 @@
     <h2 class="section-title section-title-dark masters-title">Our barbers</h2>
     <ul class="masters-list">
       <li class="masters-item">
-        <img
-          src="./images/John-Smith.jpg"
-          alt="Photo John Smith"
-          width="370"
-          height="346"
-        />
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/masters/John-Smith-desk.webp    1x,
+              ./images/masters/John-Smith-desk@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/masters/John-Smith-desk.jpg    1x,
+              ./images/masters/John-Smith-desk@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/masters/John-Smith-tab.webp    1x,
+              ./images/masters/John-Smith-tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/masters/John-Smith-tab.jpg    1x,
+              ./images/masters/John-Smith-tab@2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="
+              ./images/masters/John-Smith-mob.webp    1x,
+              ./images/masters/John-Smith-mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./images/masters/John-Smith-mob.jpg    1x,
+              ./images/masters/John-Smith-mob@2x.jpg 2x
+            "
+          />
+          <img src="./images/masters/John-Smith-mob.jpg" alt="John Smith" class="masters-image"/>
+        </picture>
         <div class="masters-item-description">
           <p class="masters-item-name">John Smith</p>
           <p class="masters-item-text">Extreme Barber</p>
@@ -40,21 +82,62 @@
             <li class="social-item">
               <a href="" class="social-item-link">
                 <svg class="social-icon" width="69" height="56">
-                  <use href="./images/sprite.svg#icon-linkedin" ></use>
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-
       </li>
       <li class="masters-item">
-        <img
-          src="./images/Michele-Doe.jpg"
-          alt="Photo Michele Doe"
-          width="370"
-          height="346"
-        />
+        <picture>
+          <source
+            media="(min-width:1200px)"
+            srcset="
+              ./images/masters/Michele-Doe-desk.webp    1x,
+              ./images/masters/Michele-Doe-desk@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width:1200px)"
+            srcset="
+              ./images/masters/Michele-Doe-desk.jpg    1x,
+              ./images/masters/Michele-Doe-desk@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="
+              ./images/masters/Michele-Doe-tab.webp    1x,
+              ./images/masters/Michele-Doe-tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="
+              ./images/masters/Michele-Doe-tab.jpg    1x,
+              ./images/masters/Michele-Doe-tab@2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="
+              ./images/masters/Michele-Doe-mob.webp    1x,
+              ./images/masters/Michele-Doe-mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="
+              ./images/masters/Michele-Doe-mob.jpg    1x,
+              ./images/masters/Michele-Doe-mob@2x.jpg 2x
+            "
+          />
+          <img src="./images/masters/Michele-Doe-mob.jpg" alt="Michele Doe" class="masters-image"/>
+        </picture>
         <div class="masters-item-description">
           <p class="masters-item-name">Michele Doe</p>
           <p class="masters-item-text">Extreme Barber</p>
@@ -89,15 +172,56 @@
             </li>
           </ul>
         </div>
-
       </li>
       <li class="masters-item">
-        <img
-          src="./images/Alan-Black.jpg"
-          alt="Photo Alan Black"
-          width="370"
-          height="346"
-        />
+        <picture>
+          <source
+            media="(min-width: 1200px )"
+            srcset="
+              ./images/masters/Alan-Black-desk.webp    1x,
+              ./images/masters/Alan-Black-desk@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1200px )"
+            srcset="
+              ./images/masters/Alan-Black-desk.jpg    1x,
+              ./images/masters/Alan-Black-desk@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="
+              ./images/masters/Alan-Black-tab.webp    1x,
+              ./images/masters/Alan-Black-tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/masters/Alan-Black-tab.jpg    1x,
+              ./images/masters/Alan-Black-tab@2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 767px )"
+            srcset="
+              ./images/masters/Alan-Black-mob.webp    1x,
+              ./images/masters/Alan-Black-mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./images/masters/Alan-Black-mob.jpg    1x,
+              ./images/masters/Alan-Black-mob@2x.jpg 2x
+            "
+          />
+          <img src="./images/masters/Alan-Black-mob.jpg" alt="Alan Black" class="masters-image"/>
+        </picture>
         <div class="masters-item-description">
           <p class="masters-item-name">Alan Black</p>
           <p class="masters-item-text">Extreme Barber</p>
@@ -132,7 +256,6 @@
             </li>
           </ul>
         </div>
-
       </li>
     </ul>
   </div>

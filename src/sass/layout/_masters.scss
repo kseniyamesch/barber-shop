@@ -1,60 +1,97 @@
-// .masters {
-//   padding-top: 120px;
-//   padding-bottom: 120px;
+.masters {
+  padding-top: 84px;
+  padding-bottom: 84px;
 
-//   background-color: #F7F7F7;
-// }
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-// .masters-pre-title {
-//   margin-bottom: 20px;
-// }
+  @media screen and (min-width: 1200px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
-// .masters-title {
-//   margin-bottom: 44px;
-// }
+  background-color: #f7f7f7;
+}
 
-// .masters-list {
-//   display: flex;
-//   flex-wrap: wrap;
-//   margin-left: -30px;
-//   margin-bottom: -30px;
-// }
+.masters-image {
+  max-width: 100%;
+  height: auto;
+  @media screen and (max-width: 1199px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
-// .masters-item {
-  
-//   margin-left: 30px;
-//   margin-bottom: 30px;
+.masters-pre-title {
+  margin-bottom: 20px;
 
-//   flex-basis: calc((100% - 3 * 30px) / 3);
-// }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 120px;
+  }
+}
 
-// .masters-item-description {
-//   margin-top: 30px;
+.masters-title {
+  margin-bottom: 44px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 120px;
+  }
+  font-size: 42px;
+  line-height: 1.17;
+}
 
-  
-// }
+.masters-list {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+  }
+}
 
-// .masters-item-name {
-  
-//   font-size: 18px;
-//   line-height: 1.39;
+.masters-item {
+  @media screen and (max-width: 1199px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-//   text-align: center;
-//   letter-spacing: 0.02em;
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
+    margin-bottom: 30px;
 
-//   color: $secondary-text-color;
-// }
+    flex-basis: calc((100% - 3 * 30px) / 3);
+  }
+}
 
-// .masters-item-text {
-//   margin-top: 8px;
+.masters-item:not(:last-child) {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 64px;
+  }
+}
 
-//   font-size: 14px;
-//   line-height: 1.36;
+.masters-item-description {
+  margin-top: 30px;
+}
 
-//   text-align: center;
-//   letter-spacing: 0.02em;
+.masters-item-name {
+  font-size: 18px;
+  line-height: 1.39;
 
-//   color: $accent-color;
-// }
+  text-align: center;
+  letter-spacing: 0.02em;
 
+  color: $secondary-text-color;
+}
 
+.masters-item-text {
+  margin-top: 8px;
+
+  font-size: 14px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: $accent-color;
+}
