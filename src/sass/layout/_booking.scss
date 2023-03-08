@@ -1,3 +1,11 @@
+.contacts-form-wrapper {
+  @media screen  and (min-width:1200px) {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .booking {
   background-color: #191c26;
 
@@ -12,10 +20,19 @@
   @media screen and (min-width: 1200px) {
     padding-top: 120px;
     padding-bottom: 120px;
+    width: 50%
   }
 }
 
-.contacts-container .section-title {
+.booking-container {
+  @media screen and (min-width: 1200px){
+    width: 570px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
+.booking-container .section-title {
   margin-bottom: 44px;
 
   font-size: 42px;
@@ -26,11 +43,6 @@
   }
 }
 
-// .form-input {
-// @media screen and (max-width:767px) {
-//     margin-bottom: 44px;
-// }
-// }
 .input-wrapper {
   @media screen and (min-width: 768px) {
     display: flex;
