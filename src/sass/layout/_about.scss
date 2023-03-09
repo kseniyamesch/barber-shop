@@ -56,7 +56,7 @@
     height: auto;
   }
 
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     width: 270px;
   }
 }
@@ -74,15 +74,15 @@
 }
 
 .after-title-desk {
-    @media screen and (max-width:1199px) {
-        display: none;
-    }
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .after-title-mob {
-    @media screen and (min-width:1200px) {
-        display: none;
-    }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .about-text {

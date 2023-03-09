@@ -162,12 +162,13 @@
   &:not(:last-child) {
     margin-bottom: 24px;
 
-//     &::before {
-//         align-self: center;
-//         content: '';
-//         width: 60px;
-//         height: 1px;
-//         background-color: #303030;
-//         margin-right: 40px;
-//   }
-  }}
+    //     &::before {
+    //         align-self: center;
+    //         content: '';
+    //         width: 60px;
+    //         height: 1px;
+    //         background-color: #303030;
+    //         margin-right: 40px;
+    //   }
+  }
+}

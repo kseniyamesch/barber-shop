@@ -30,9 +30,9 @@ html {
 }
 
 body {
-    background-color: $header-color;
+  background-color: $header-color;
 
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 button {
@@ -53,10 +53,9 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-

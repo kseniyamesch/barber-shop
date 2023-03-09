@@ -53,7 +53,6 @@
 
 .contacts .contacts-container {
   @media screen and (min-width: 1200px) {
-    // width: 270px;
     margin-right: auto;
     margin-left: 100px;
   }
@@ -77,7 +76,7 @@
     margin-bottom: 44px;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1199px){
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-right: 30px;
     width: 50%;
   }

@@ -1,5 +1,5 @@
 .contacts-form-wrapper {
-  @media screen  and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -20,12 +20,12 @@
   @media screen and (min-width: 1200px) {
     padding-top: 120px;
     padding-bottom: 120px;
-    width: 50%
+    width: 50%;
   }
 }
 
 .booking-container {
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     width: 570px;
     margin-right: 0;
     margin-left: auto;
@@ -53,68 +53,69 @@
 
 .form-input {
   display: block;
-    padding: 0;
-    
-    @media screen and (min-width: 768px) {
-        width: calc((100% - 30px) / 2);
+  padding: 0;
 
-        &:not(:last-child) {
-            margin-right: 30px;
-        }
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+
+    &:not(:last-child) {
+      margin-right: 30px;
     }
+  }
 }
 
 .form-message {
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 44px;
+  }
+}
+
+.form-input,
+.form-message {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 1px solid #ffffff;
+
+    &::placeholder {
+      color: #ffffff;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
     width: 100%;
-
-    @media screen and (min-width: 768px) {
-      margin-bottom: 44px;
-    }
+    margin-bottom: 44px;
+  }
 }
 
-.form-input, .form-message {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
-    cursor: pointer;
+.form-input::placeholder,
+.form-message::placeholder {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
 
-    &:hover {
-        border-bottom: 1px solid #ffffff;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 
-        &::placeholder {
-       color: #ffffff;
-        }
-    }
-
-    @media screen and (max-width:767px) {
-        width: 100%;
-        margin-bottom: 44px;
-    }
-}
-
-.form-input::placeholder, .form-message::placeholder {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-
-letter-spacing: 0.1em;
-text-transform: uppercase;
-
-color: rgba(157, 164, 189, 0.4);
-
+  color: rgba(157, 164, 189, 0.4);
 }
 
 .form-message {
-resize: none;
-height: 76px;
+  resize: none;
+  height: 76px;
 }
 
 .form-button {
-    color: #ffffff;
-    display: block;
+  color: #ffffff;
+  display: block;
 
-    @media screen and (max-width: 767px) {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
